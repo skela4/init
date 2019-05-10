@@ -6,8 +6,9 @@
 #    By: aahizi-e <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/06 15:00:55 by aahizi-e          #+#    #+#              #
-#    Updated: 2019/05/06 15:01:31 by aahizi-e         ###   ########.fr        #
+#    Updated: 2019/05/06 21:16:54 by aahizi-e         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 ifconfig en1 | awk '/ether/ {print $2}'
+networksetup -listallhardwareports

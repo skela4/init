@@ -1,0 +1,59 @@
+NETSTAT(1)
+netstat -- show network status
+
+NETINTRO(4)
+networking -- introduction to networking facilities
+
+INET(4)
+inet -- Internet protocol family
+
+IP(4)
+ip -- Internet Protocol
+
+ARP(4)
+arp -- Address Resolution Protocol
+
+HOSTS(5)
+hosts -- host name data base
+
+NETWORKS(5)
+networks -- network name data base
+
+PROTOCOLS(5)
+protocols -- protocol name data base
+
+SERVICES(5)
+services -- service name data base
+
+resolver(5)
+resolver -- resolver configuration file format
+
+HOSTNAME(7)
+hostname -- host name resolution description
+
+ROUTE(8)
+route -- manually manipulate the routing tables
+
+NETWORKSETUP(8)
+networksetup -- configuration tool for network settings in System Preferences.
+
+SYSTEMSETUP(8)
+systemsetup -- configuration tool for certain machine settings in System Preferences.
+
+IFCONFIG(8)
+ifconfig -- configure network interface parameters
+
+ARP(8)
+arp -- address resolution display and control
+
+PING(8)
+ping -- send ICMP ECHO_REQUEST packets to network hosts
+
+TRACEROUTE(8)
+traceroute -- print the route packets take to network host
+
+FILES
+/etc/hosts
+/etc/resolv.conf
+/usr/sbin/networksetup
+/usr/sbin/systemsetup
